@@ -1,6 +1,3 @@
-<%@page import="sessao.SessaoJogo"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -28,7 +25,7 @@
     if(t == null){%><h1>
     <div class="alert alert-info">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Click no bot√£o Sortear!</strong> 
+    <strong>Click no bot„o Sortear!</strong> 
     </div>
     <%}else{%>
     <div class="alert alert-info">

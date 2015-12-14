@@ -15,6 +15,11 @@ import java.util.Random;
 public class Sessao extends HttpServlet {
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void service(
 		      HttpServletRequest req,
 		      HttpServletResponse resp)
@@ -60,4 +65,3 @@ public class Sessao extends HttpServlet {
 	 }	
 	
 }
-
